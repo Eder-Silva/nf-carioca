@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+#mainWin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--main-section-bg);
+  height: 100%;
+  width: calc(100% - 150px);
+
+  padding: 8px
+}

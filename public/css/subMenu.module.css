@@ -1,0 +1,45 @@
+#subMenu {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--subMenu-blue);
+}
+
+#subMenu > img {
+  width: 120px;
+}
+
+#subMenu > h1 {
+  font-size: 12px;
+  width: 100%;
+  color: rgb(233, 229, 229);
+  padding-left: 4%;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+#subMenu > span{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: var(--subMenu-colorText);;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#subMenu > span:hover {
+  background-color: var(--light-blue);
+}
+
+#subMenu > span > img {
+  width: 12%;
+  filter: invert(100);
+  margin: 0 8px;
+}
+
+#subMenu > span > p{
+  width: 80%;
+}
+

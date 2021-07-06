@@ -1,0 +1,21 @@
+/* ---------------- FOOTER --------------------*/
+footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-blue);
+    color: var(--white);
+  }
+  
+  footer > span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer > span > h1 {
+    font-size: 14px;
+  }

@@ -1,0 +1,97 @@
+/*============================================================*/
+.container-register {
+  display: flex;
+  width: 90%;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.container-register > h1 {
+  margin: 10px 0 10px 40px;
+}
+.container-register > hr {
+  margin: 0 50px 20px 40px;
+}
+
+.container-register > div {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  color: var(--btn-black);
+  font-size: 16px;
+}
+
+.container-register > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-register > form > div {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.container-register > form > div > input {
+  width: 100%;
+  height: 30px;
+  padding-left: 8px;
+  margin: 0 10px 20px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(207, 205, 205);
+}
+
+.containerBtn > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 48px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--btn-light-black);
+  color: var(--white);
+  margin: 0 20px 20px 0;
+  border: 0;
+  cursor: pointer;
+}
+
+#btn-cancel {
+  background-color: var(--red);
+}
+
+#supCnpj,
+#supCep,
+#supTel {
+  width: 30%;
+}
+#supBairro {
+  width: 70%;
+}
+
+#supTypeAddress,
+#supUf {
+  width: 50%;
+
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(207, 205, 205);
+}
+
+#supUf {
+  max-width: 60px;
+}
+
+#supTypeAddress {
+  max-width: 120px;
+}
+
+#supNum {
+  width: 10%;
+  max-width: 65px;
+}

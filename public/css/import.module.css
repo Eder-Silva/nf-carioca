@@ -1,0 +1,65 @@
+.cityForm,
+.cityFormRj {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 600px;
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.cityForm > span,
+.cityFormRj > span {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+button {
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btnGroup > button,
+.cityFormRj > .btnGroup > button {
+  width: 40%;
+}
+
+.btn-cancel {
+  background-color: var(--red);
+  color: var(--white);
+  margin-right: 10px;
+}
+
+#inputDate{
+  width: 76%;
+  height: 30px;
+}
+
+#btn-search {
+  margin-left: 10px;
+  width: 150px;
+  padding: 5px;
+}
+
+#btn-search,
+#btn-send-mail,
+.btn-import {
+  margin-right: 10px;
+  background-color: var(--btn-light-black);
+  color: var(--white);
+}
+
+.cityForm > span > input,
+.cityFormRj > span > input {
+  margin-left: 10px;
+  width: 70%;
+  text-align: center;
+}
+
+.cityFormRj > span{
+  justify-content: center;
+}

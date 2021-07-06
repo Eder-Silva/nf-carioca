@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url('../fonts/poppins/Poppins-Regular.otf');
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: poppins;
+}
+
+:root {
+  --main-section-bg: rgb(221, 218, 218);
+  --white: #fff;
+  --btn-light-black: rgb(64, 64, 65);
+  --dark-blue: #273465;
+  --red: red;  
+  --light-blue: rgb(58, 58, 192);
+  --subMenu-blue: #01416d;
+  --btn-black: black;
+  --subMenu-colorText: rgb(207, 205, 205);
+}
